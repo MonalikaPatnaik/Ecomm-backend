@@ -1,0 +1,24 @@
+{
+  "name": "ecomm",
+  "version": "1.0.0",
+  "description": "This is a web server",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node app.ts",
+    "build": "npx tsc",
+    "dev": "nodemon app.ts"
+  },
+ 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
