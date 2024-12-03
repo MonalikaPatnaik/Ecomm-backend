@@ -15,4 +15,5 @@ const app=express();
 app.listen(PORT, ()=>{
     console.log("App listening on",PORT);
 })
+app.use(express.json());
 app.get('/',Routes);

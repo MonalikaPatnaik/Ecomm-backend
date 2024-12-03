@@ -1,4 +1,5 @@
-const mongoose= require('mongoose');
+import mongoose from 'mongoose';
+
 const productschema=new mongoose.Schema({
     name:{type:String},
     category:{type:String},

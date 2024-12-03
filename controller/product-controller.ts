@@ -1,4 +1,4 @@
-const  Product  = require ("../model/product-schema.ts");
+import Product from "../model/product-schema";
 export const getProducts=async(req:any, res:any)=>{
     try{
         const products=await Product.find({});
